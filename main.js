@@ -8,7 +8,7 @@ var imageURLInput = document.querySelector('input');
 var addImageButton = document.querySelector('button');
 
 addImageButton.addEventListener('click', function (addImage) {
-  if (imageURLInput.value != '') {
+  if (imageURLInput.value !== '') {
     imageURLs.push(imageURLInput.value);
   }
   imageURLInput.value = ''
